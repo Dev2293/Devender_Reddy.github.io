@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K. Devender Reddy | Cybersecurity Professional</title>
+    <meta name="description" content="K. Devender Reddy - Cybersecurity Graduate | Web Application & Network Security Enthusiast">
+    <meta name="keywords" content="cybersecurity, penetration testing, web security, network security, kali linux, burp suite">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Matrix Background Canvas -->
+    <style>
+        #matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Matrix Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">KDR</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">
+                    <span class="name">K. Devender Reddy</span>
+                </h1>
+                <div class="hero-tagline">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-subtitle">Recent Graduate | Web Application & Network Security Enthusiast</p>
+                
+                <div class="terminal-line" data-aos="fade-up" data-aos-delay="500">
+                    <span class="terminal-prompt">$</span>
+                    <span class="terminal-command">console.log("Welcome to Devender's Cyber World...");</span>
+                </div>
+                
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="700">
+                    <a href="https://drive.google.com/file/d/1K8rY3BUEftYCU6RW2WUqIqq-QNrupwqr/view?usp=sharing" 
+                       class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+                
+                <div class="social-icons" data-aos="fade-up" data-aos-delay="900">
+                    <a href="https://linkedin.com/in/kothadevenderreddy" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:devenderreddy227@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+916301142293" class="social-icon">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="200">
+                    <p class="about-description">
+                        I am a passionate and self-driven cybersecurity enthusiast with a deep curiosity for understanding how systems work and how they can be secured. My journey in cybersecurity began during my college years, where I discovered my fascination with the intricate world of digital security.
+                    </p>
+                    <p class="about-description">
+                        I have solid hands-on exposure to industry-standard tools and platforms including <strong>Burp Suite</strong>, <strong>Kali Linux</strong>, <strong>Nmap</strong>, <strong>Wireshark</strong>, and <strong>TryHackMe</strong> labs. These tools have been instrumental in my practical understanding of cybersecurity concepts.
+                    </p>
+                    <p class="about-description">
+                        My areas of focus include <strong>Linux System Hardening</strong>, <strong>Web Application Security</strong>, and <strong>Network Fundamentals</strong>. I believe in learning through hands-on practice and constantly challenging myself with new security scenarios.
+                    </p>
+                    <p class="about-description">
+                        My career goal is to start as a <strong>SOC Analyst</strong> and grow into a <strong>Penetration Tester</strong>, contributing to building more secure digital environments. I approach every challenge with curiosity and a self-driven learning mindset.
+                    </p>
+                </div>
+                <div class="about-stats" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-item">
+                        <div class="stat-number">45+</div>
+                        <div class="stat-label">Vulnerabilities Found</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Tools Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Hours of Practice</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                        <h3 class="project-title">Web Application Vulnerability Testing</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tools">
+                            <h4>Tools Used:</h4>
+                            <div class="tools-list">
+                                <span class="tool-tag">Burp Suite</span>
+                                <span class="tool-tag">Kali Linux</span>
+                                <span class="tool-tag">Browser Dev Tools</span>
+                                <span class="tool-tag">OWASP Juice Shop</span>
+                                <span class="tool-tag">DVWA</span>
+                                <span class="tool-tag">bWAPP</span>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h4>Description:</h4>
+                            <p>Comprehensive testing of multiple web applications to identify and document security vulnerabilities. Performed hands-on testing using industry-standard tools and methodologies.</p>
+                        </div>
+                        <div class="project-achievements">
+                            <h4>Achievements:</h4>
+                            <ul>
+                                <li>Found <strong>45 vulnerabilities</strong> across multiple applications</li>
+                                <li>10 XSS vulnerabilities (reflected, stored, DOM-based)</li>
+                                <li>7 SQL Injection vulnerabilities (classic, blind, time-based)</li>
+                                <li>6 CSRF vulnerabilities</li>
+                                <li>4 Broken Authentication issues</li>
+                                <li>4 IDOR vulnerabilities</li>
+                                <li>14 other findings (clickjacking, open redirects, misconfigurations)</li>
+                            </ul>
+                        </div>
+                        <div class="project-learning">
+                            <h4>Key Learning:</h4>
+                            <p>Understanding OWASP Top 10 in practice, request interception techniques, and chaining vulnerabilities for real impact. Developed skills in creating detailed vulnerability reports with payloads, POC screenshots, and suggested mitigations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-header">
+                        <i class="fas fa-server project-icon"></i>
+                        <h3 class="project-title">Linux Security & Firewall Setup</h3>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tools">
+                            <h4>Tools Used:</h4>
+                            <div class="tools-list">
+                                <span class="tool-tag">UFW</span>
+                                <span class="tool-tag">Fail2Ban</span>
+                                <span class="tool-tag">Auditd</span>
+                                <span class="tool-tag">SSH</span>
+                                <span class="tool-tag">Ubuntu Server</span>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h4>Description:</h4>
+                            <p>Secured an Ubuntu server by implementing comprehensive security measures including firewall configuration, SSH hardening, and system monitoring.</p>
+                        </div>
+                        <div class="project-achievements">
+                            <h4>Achievements:</h4>
+                            <ul>
+                                <li>Disabled root login for enhanced security</li>
+                                <li>Changed SSH port to reduce automated attacks</li>
+                                <li>Enabled SSH key-only access</li>
+                                <li>Installed and configured UFW firewall</li>
+                                <li>Implemented Fail2Ban for intrusion prevention</li>
+                                <li>Set up Auditd for system monitoring</li>
+                                <li>Only allowed ports 22, 80, 443</li>
+                                <li>Hardened file permissions and user audit logs</li>
+                                <li>Successfully tested brute force attempts and confirmed IP banning</li>
+                            </ul>
+                        </div>
+                        <div class="project-learning">
+                            <h4>Key Learning:</h4>
+                            <p>How to lock down a Linux box, configure firewalls effectively, detect and prevent unauthorized access, and implement defense-in-depth security measures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="cert-title">Juniper Networks Certified Associate – Security</h3>
+                    <p class="cert-description">Covers firewalls, IPS, routing security concepts</p>
+                </div>
+                
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="cert-title">Palo Alto Cloud Security Fundamentals</h3>
+                    <p class="cert-description">Understanding cloud risks, firewalls, and zero trust</p>
+                </div>
+                
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="cert-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3 class="cert-title">Linux Foundation Cybersecurity Essentials</h3>
+                    <p class="cert-description">Linux security, users, and filesystem protection</p>
+                </div>
+                
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="cert-title">Google IT Networking (Coursera)</h3>
+                    <p class="cert-description">TCP/IP, subnets, routing, and DNS fundamentals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-shield-alt"></i>
+                        Cybersecurity Concepts
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">CIA Triad</span>
+                        <span class="skill-item">Threat Modeling</span>
+                        <span class="skill-item">OWASP Top 10</span>
+                        <span class="skill-item">Vulnerability Assessment</span>
+                        <span class="skill-item">Risk Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Nmap</span>
+                        <span class="skill-item">Burp Suite</span>
+                        <span class="skill-item">Wireshark</span>
+                        <span class="skill-item">Fail2Ban</span>
+                        <span class="skill-item">Kali Linux</span>
+                        <span class="skill-item">Metasploit</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">
+                        <i class="fas fa-network-wired"></i>
+                        Networking
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">TCP/IP</span>
+                        <span class="skill-item">Subnets</span>
+                        <span class="skill-item">OSI Model</span>
+                        <span class="skill-item">Firewall Rules</span>
+                        <span class="skill-item">DNS</span>
+                        <span class="skill-item">Routing</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="category-title">
+                        <i class="fab fa-linux"></i>
+                        OS Security
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Linux Hardening</span>
+                        <span class="skill-item">SSH Security</span>
+                        <span class="skill-item">UFW</span>
+                        <span class="skill-item">Auditd</span>
+                        <span class="skill-item">User Management</span>
+                        <span class="skill-item">File Permissions</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="category-title">
+                        <i class="fas fa-bug"></i>
+                        Vulnerability Management
+                    </h3>
+                    <div class="skill-items">
+                        <span class="skill-item">TryHackMe</span>
+                        <span class="skill-item">Reporting</span>
+                        <span class="skill-item">Reconnaissance</span>
+                        <span class="skill-item">Exploitation</span>
+                        <span class="skill-item">Post-Exploitation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">B.Tech in Cybersecurity</h3>
+                        <p class="education-school">K L University, Vijayawada</p>
+                        <p class="education-period">2021 – 2025</p>
+                        <p class="education-gpa">CGPA: <strong>8.29</strong></p>
+                    </div>
+                </div>
+                
+                <div class="education-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="education-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Higher Secondary Education</h3>
+                        <p class="education-school">Bhashyam Junior College</p>
+                        <p class="education-period">2021</p>
+                        <p class="education-gpa">GPA: <strong>6.97</strong></p>
+                    </div>
+                </div>
+                
+                <div class="education-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">High School</h3>
+                        <p class="education-school">Bhashyam Blooms</p>
+                        <p class="education-period">2019</p>
+                        <p class="education-gpa">Score: <strong>344/500</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:devenderreddy227@gmail.com">devenderreddy227@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+916301142293">+91 6301142293</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/kothadevenderreddy" target="_blank">linkedin.com/in/kothadevenderreddy</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="400">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 K. Devender Reddy | Designed with 💻, ⚡, and 🔐 Passion for Cybersecurity
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
